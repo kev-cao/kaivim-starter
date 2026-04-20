@@ -1,0 +1,27 @@
+-- Add your own plugin specs here. Files in this directory are automatically
+-- loaded by lazy.nvim alongside the KaiVim distribution plugins.
+--
+-- To add a plugin:
+--   { "author/plugin-name" },
+--
+-- To override a distribution plugin's options:
+--   {
+--     "author/plugin-name",
+--     opts = { ... },
+--   },
+--
+-- To disable a distribution plugin:
+--   { "author/plugin-name", enabled = false },
+--
+-- To override a keymap (lazy.nvim resolves keys by lhs + mode):
+--   {
+--     "author/plugin-name",
+--     keys = {
+--       { "<leader>ff", "<cmd>SomeCommand<CR>", mode = "n", desc = "Do something" },
+--       { "<leader>sb", false }, -- remove a keymap
+--     },
+--   },
+--
+-- See the KaiVim README for more details.
+
+return {}
